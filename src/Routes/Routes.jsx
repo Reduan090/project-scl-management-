@@ -1,8 +1,13 @@
 import Root from '../Layout/Root';
 import { createBrowserRouter } from "react-router-dom";
 import Login from '../Pages/Login';
+<<<<<<< HEAD
 import Home from '../Pages/StudentDashboard';
 import TeacherHome from '../Pages/TeacherDashboard';
+=======
+import Home from '../Pages/Home';
+import TeacherHome from '../Pages/TeacherHome';
+>>>>>>> a048919 (first commit)
 
 const router = createBrowserRouter([
     {
