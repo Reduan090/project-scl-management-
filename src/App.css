@@ -8,6 +8,10 @@
     --text-color: #4A4540;
 }
 
+body {
+    background: var(--background-color);
+}
+
 .sclm-button {
     height: 50px;
     border-radius: 50px;
