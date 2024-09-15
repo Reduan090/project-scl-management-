@@ -1,3 +1,5 @@
+import Navbar from "../SharedComponents/Navbar";
+
 const Home = () => {
     return (
         <div className="max-w-7xl mx-auto">
