@@ -2,6 +2,26 @@
     --primary-color: #035465;
     --secondary-color: #FDD661;
 
+    --background-color: #FEFAEE;
+
     /* Text Color */
     --text-color: #4A4540;
+}
+
+.sclm-button {
+    height: 50px;
+    border-radius: 50px;
+    background: var(--primary-color);
+    color: #FFF;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 50px;
+    transition: .3s all ease-in;
+}
+
+.sclm-button:hover {
+    background: var(--secondary-color);
+    color: #000;
 }

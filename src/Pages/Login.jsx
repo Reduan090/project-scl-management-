@@ -47,11 +47,11 @@ const Login = () => {
                                     </label>
                                 </div>
                                 <div className="form-control mt-6" >
-                                    <button className="btn btn-outline btn-accent text-base "><Link className='text-xl' to='/Home'>Student Login</Link></button>
+                                    <button className="sclm-button"><Link to='/Home'>Student Login</Link></button>
                                 </div>
 
                                 <div className="form-control mt-6" >
-                                    <button className="btn btn-outline btn-accent text-base "><Link className='text-xl' to='/TeacherHome'>Teacher Login</Link></button>
+                                    <button className="sclm-button"><Link to='/TeacherHome'>Teacher Login</Link></button>
                                 </div>
 
 
