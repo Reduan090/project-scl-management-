@@ -8,6 +8,7 @@ import Tasks from '../SharedComponents/Tasks';
 import TasksFlow from '../SharedComponents/TasksFlow';
 import SideBar from '../SharedComponents/SideBar';
 import TeachersCorner from '../SharedComponents/TeachersCorner';
+import { Link } from 'react-router-dom';
 
 const StudentDashboard = () => {
     return (
@@ -30,7 +31,7 @@ const StudentDashboard = () => {
                                 </form>
                             </div>
                             <div className="DBuserImage">
-                                <img src={userIMG} alt="user image" />
+                                <Link to="/StudentProfile"><img src={userIMG} alt="user image" /></Link>
                             </div>
                         </div>
                         <div className="dashboardContent grid grid-cols-12 gap-6 mt-10">
