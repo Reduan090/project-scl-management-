@@ -4,7 +4,7 @@ import ChevronRight from '../assets/chevron-right-solid.svg'
 const Tasks = () => {
     return (
         <>
-            <div className="tasks-card custom-shadow p-6 bg-white block col-span-8 row-span-2">
+            <div className="tasks-card custom-shadow p-6 bg-white block col-span-8">
                 <h4 className="text-4xl text-[var(--primary-color)] font-bold mb-4">Tasks</h4>
                 <div className="tasks-list flex flex-col gap-4">
                     <a href="#" className="tasks-item flex items-center p-4 px-6 justify-between">

@@ -143,7 +143,8 @@ a, button {
 
 /* Tasks */
 .tasks-item,
-.task-flow-item {
+.task-flow-item,
+.teachers-corner .tc-item {
     border-radius: 10px;
     background: var(--secondary-color);
 }
@@ -163,7 +164,8 @@ a, button {
 
 .tasks-item:hover h4,
 .task-flow-item:hover h4,
-.tasks-item:hover p {
+.tasks-item:hover p,
+.teachers-corner .tc-item:hover h4 {
     color: #FFF;
 }
 
@@ -175,4 +177,29 @@ a, button {
     width: calc(100% / 3);
     height: 100px;
     text-align: center;
+}
+
+/* Teachers Corner*/
+.teachers-corner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.teachers-corner .tc-item {
+    width: calc(50% - 8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teachers-corner .tc-item:hover {
+    background: var(--text-color);
+}
+
+.teachers-corner .tc-item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
 }
